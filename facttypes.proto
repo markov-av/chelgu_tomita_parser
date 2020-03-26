@@ -1,0 +1,13 @@
+import "base.proto";           // описание protobuf-типов
+import "facttypes_base.proto"; // описание protobuf-типа NFactType.TFact
+
+message Music: NFactType.TFact 
+{
+	optional string GroupName = 1;
+	optional string AlbumName = 2;
+	optional string Translate = 3;
+	optional string Date = 4;
+	optional string Day = 5;
+	optional string Month = 6;
+	optional string Year = 7;
+}
